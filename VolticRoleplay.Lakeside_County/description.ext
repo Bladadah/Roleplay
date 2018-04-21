@@ -1,0 +1,38 @@
+class Header
+{
+	gameType = RPG;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+
+
+#include "Sounds.hpp"
+#include "Dialogs\Dialogs.hpp"
+#include "HRP_Dialogs.hpp"
+#include "infiSTAR_AdminMenu.hpp"
+
+class RscTitles
+{
+	#include "Dialogs\HRP_HUD.hpp"
+	#include "Dialogs\progress.hpp"
+	#include "Dialogs\ANPR.hpp"
+	#include "Dialogs\jailmenu.hpp"
+};
+
+
+respawndelay = 1;
+respawn = "BASE";
+respawnButton = 0;
+disabledAI = 1;
+enableDebugConsole[] = {"76561198135204695","76561198146927503"}; // Leon, Bradley
+joinUnassigned = 1;
+respawnDialog = 0;
+allowFunctionsLog = 0;
+author = "VRP Development Team";
+onLoadName = "Voltic RP";
+onLoadMission = "VolticRP by VRP Dev Team";
+loadScreen = "load.paa";
+
+wreckLimit = 5;
+wreckRemovalMaxTime = 300;
+wreckRemovalMinTime = 120; 
